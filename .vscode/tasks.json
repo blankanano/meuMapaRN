@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Java",
+            "type": "shell",
+            "command": "npx react-native run-android",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+        // Adicione tarefas para compilação Android, se necessário
+    ]
+}
